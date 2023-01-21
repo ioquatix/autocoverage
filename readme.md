@@ -10,3 +10,10 @@ samuel@aiko ~/P/i/autocoverage> ruby -r "./autocoverage.rb" test2.rb
 Hello World
 {"/home/samuel/Projects/ioquatix/autocoverage/test.rb"=>{:lines=>[1, 1, nil, nil, 1], :branches=>{}, :methods=>{[Object, :main, 1, 0, 3, 3]=>1}}}
 ```
+
+The same problem affects simplecov.
+
+```
+ruby -r "./simplecov.rb" test.rb
+... similar results in coverage directory ...
+```
