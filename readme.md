@@ -1,5 +1,7 @@
 # Auto Coverage
 
+> **_NOTE:_** This is now fixed on 3.2.1 and works correctly.
+
 For some reason, Ruby's coverage library doesn't work when the file is loaded from the command line. In the below example, `test2.rb` loads `test.rb`. If you run `test2.rb` with coverage enabled, it will report coverage for `test.rb` but not `test2.rb`. If you run `test.rb` directly, no coverage is reported.
 
 ```
